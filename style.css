@@ -578,6 +578,7 @@ footer{
 }
 
 
+/* The below Code is for the media query */
 
 /* Medium devices */
 @media (max-width:767px){
@@ -660,8 +661,6 @@ footer{
         grid-row: 3/4;
         grid-column: 2/3;
     }
-
-
 
 }
 
