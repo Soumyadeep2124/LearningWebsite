@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: small;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    height: 7vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 5vw;
+}
+span{
+    color: #05668D;
+}
+
+.nav button{
+    height: 3vw;
+    width: 7vw;
+    border: none;
+    background-color: #05668D;
+    color: white;
+    border-radius: 1vw;
+}
+form{
+    height: 40vw;
+    width: 30vw;
+    border: 2px solid rgb(175, 175, 175);
+    margin: 1vw auto;
+    border-radius: 2vw;
+}
+.formdata{
+   text-align: center;
+}
+form label{
+    margin-right: 15vw;
+}
+.form input{
+    height: 3vw;
+    width: 20vw;
+    border-radius: 1vw;
+    border: 0.2vw solid black;
+    padding-left: 20px;
+}
+
+.form button{
+    height: 3vw;
+    width: 15vw;
+    border: none;
+    margin-top: 1vw;
+    background-color: #05668D;
+    color: white;
+    border-radius: 1vw;
+}
+
+@media (max-width:1025px){
+    form{
+        height: 50vw;
+    }
+}
+@media (max-width:767px){
+    .nav{
+        flex-direction: column;
+    }
+    form{
+        height: 60vw;
+        width: 40vw;
+        margin-top: 5vw;
+    }
+    .form input{
+        height: 3vw;
+        width: 30vw;
+    }
+
+
+}
+@media (max-width:580px){
+    form{
+        margin-top: 10vw;
+        height: 80vw;
+    }
+
+}
