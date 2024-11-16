@@ -214,7 +214,7 @@ a{
     padding-top: 1vw;
 }
 .syllabus-detail{
-    background-image: linear-gradient(#028090, rgba(0, 0, 0, 0.2)), url(./module.jpg);
+    background-image: linear-gradient(#028090, rgba(0, 0, 0, 0.2)), url(./images/module.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
