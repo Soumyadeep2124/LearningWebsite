@@ -164,13 +164,13 @@ button:hover{
     }
 }
 .hero2{
-    background-image: linear-gradient(#028090, rgba(0, 0, 0, 0.2)), url(./Course1.jpg);
+    background-image: linear-gradient(#028090, rgba(0, 0, 0, 0.2)), url(./images/Course1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;  
 }
 .hero3{
-    background-image: linear-gradient(#02C39A, rgba(0, 0, 0, 0.2)),  url(./Course2.jpg);
+    background-image: linear-gradient(#02C39A, rgba(0, 0, 0, 0.2)),  url(./images/Course2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -264,14 +264,14 @@ button:hover{
     background-color: #00A896;
     display: flex;
     border-radius: 1vw 1vw 8.3vw 8.3vw;
-    background-image: linear-gradient(#F0F3BD, rgba(0, 0, 0, 0.2)), url(./fog.jpg);
+    background-image: linear-gradient(#F0F3BD, rgba(0, 0, 0, 0.2)), url(./images/fog.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .about-box3{
     grid-column: 2/3;
-    background-image: linear-gradient(#028090, rgba(0, 0, 0, 0.6)), url(./aboutBG.jpg);
+    background-image: linear-gradient(#028090, rgba(0, 0, 0, 0.6)), url(./images/aboutBG.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -335,20 +335,20 @@ button:hover{
     animation: right-fade 1s ease-out forwards;
 }
 .skill-box1{
-    background-image: linear-gradient(#05668D, rgba(0, 0, 0, 0.5)), url(./woodBg.jpg);
+    background-image: linear-gradient(#05668D, rgba(0, 0, 0, 0.5)), url(./images/woodBg.jpg);
 }
 .skill-box2{
-    background-image: linear-gradient(#028090, rgba(0, 0, 0, 0.5)), url(./woodBg.jpg);
+    background-image: linear-gradient(#028090, rgba(0, 0, 0, 0.5)), url(./images/woodBg.jpg);
 
 }
 .skill-box3{
-    background-image: linear-gradient(#F0F3BD, rgba(0, 0, 0, 0.9)), url(./skillBg.jpg);
+    background-image: linear-gradient(#F0F3BD, rgba(0, 0, 0, 0.9)), url(./images/skillBg.jpg);
 }
 .skill-box4{
-    background-image: linear-gradient(#00A896, rgba(0, 0, 0, 0.5)), url(./woodBg.jpg);
+    background-image: linear-gradient(#00A896, rgba(0, 0, 0, 0.5)), url(./images/woodBg.jpg);
 }
 .skill-box5{
-    background-image: linear-gradient(#02C39A, rgba(0, 0, 0, 0.5)), url(./woodBg.jpg);
+    background-image: linear-gradient(#02C39A, rgba(0, 0, 0, 0.5)), url(./images/woodBg.jpg);
 }
 .skill-image{
     max-width: 7vw;
@@ -407,7 +407,7 @@ button:hover{
     gap: 1vw;
     margin: 2vw 0vw;
     padding: 5vw 5vw;
-    background-image: linear-gradient(#05668D, rgba(0, 0, 0, 0.3)), url(./Project.jpg);
+    background-image: linear-gradient(#05668D, rgba(0, 0, 0, 0.3)), url(./images/Project.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
@@ -415,7 +415,7 @@ button:hover{
 }
 .project-box{
     border-radius: 1vw;
-    background-image: linear-gradient(#F0F3BD, rgba(0, 0, 0, 0.9)), url(./skillBg.jpg);
+    background-image: linear-gradient(#F0F3BD, rgba(0, 0, 0, 0.9)), url(./images/skillBg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;  
@@ -456,7 +456,6 @@ button:hover{
 }
 .project-box3{
     grid-column: 2/5;
-    background-image: linear-gradient(#F0F3BD, rgba(0, 0, 0, 0.9)), url(./skillBg.jpg);
     padding-bottom: 1vw;
     opacity: 0;
     transform: scale(0);
