@@ -688,7 +688,18 @@ footer{
     .about-box3{
         padding: 5vw 3vw;
     }
-    
+    #contact{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .contact-me{
+        text-align: center;
+    }
+    form{
+        margin-top: 5vw;
+        text-align: center;
+    }
     
     
 }
