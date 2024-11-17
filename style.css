@@ -667,6 +667,10 @@ footer{
 
 /* Small devices */
 @media (max-width:479px){
+    .nav img{
+        height: auto;
+        width: 16vw; 
+    }
     .nav a, .nav button{
         display: none;
     }
