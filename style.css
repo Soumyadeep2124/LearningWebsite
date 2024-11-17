@@ -253,7 +253,8 @@ button:hover{
     background-image: linear-gradient(#05668D, rgba(0, 0, 0, 0.5));
 }
 .about-box1 h2{
-    padding: 1vw;
+    display: inline-block;
+    padding: 1vw 2vw;
     font-size: 3.5vw;
     color: white;
     word-spacing: 2vw;
