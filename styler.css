@@ -471,6 +471,10 @@ footer{
     h3{
         font-size: 0.8rem;
     }
+    .nav img{
+        height: auto;
+        width: 16vw; 
+    }
     .nav-search{
         display: none;
     }
