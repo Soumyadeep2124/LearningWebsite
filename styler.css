@@ -83,6 +83,9 @@ a{
     top: 0.8vw;
     left: 2vw;
 }
+.hamburger{
+    display: none;
+}
 .nav-right{
     display: flex;
     justify-content: space-evenly;
@@ -464,6 +467,15 @@ footer{
     }
     h3{
         font-size: 0.8rem;
+    }
+    .nav-search{
+        display: none;
+    }
+    .search-logo{
+        display: none;
+    }
+    .hamburger{
+        display: inline-block;
     }
     #hero-section{
         display: flex;
