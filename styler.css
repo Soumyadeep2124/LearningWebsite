@@ -85,6 +85,9 @@ a{
 }
 .hamburger{
     display: none;
+    font-size: 2vw;
+    padding-top: 0.5vw;
+    padding-right: 2vw;
 }
 .nav-right{
     display: flex;
